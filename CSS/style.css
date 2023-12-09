@@ -19,6 +19,7 @@ header {
 nav {
     max-width: 1400px;
     margin: 0 auto;
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,10 +75,13 @@ nav>ul a {
 }
 
 .follow-container > a {
-    margin-right: 25px;
+    margin-right: 10px;
 }
 
 .follow-container span {
-    margin-right: 15px;
+    margin-left: 15px;
     font-size: 1.5rem;
+    cursor: pointer;
 }
+
+
