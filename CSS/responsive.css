@@ -1,8 +1,10 @@
-@media screen and (max-width: 576px) {
-    nav {
-        flex-direction: column;
-    }
+/* small devices */
 
+@media screen and (max-width: 576px) {
+
+    /* header styles */
+
+    nav,
     nav>ul {
         flex-direction: column;
     }
@@ -14,5 +16,34 @@
 
     .follow-container {
         margin-top: 30px;
+    }
+
+        /* main styles */
+
+    /* banner section */
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-image {
+        width: 100%;
+        /* border: 1px solid blue; */
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
+/* medium devices or tablet */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+
+    /* header  styles */
+
+    nav {
+        flex-direction: column;
     }
 }
