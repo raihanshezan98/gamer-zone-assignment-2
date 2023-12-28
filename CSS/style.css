@@ -10,6 +10,15 @@ body {
     margin: 0;
 }
 
+/* common styles */
+
+.primary-color {
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+
 /* header styles  */
 
 header {
@@ -102,14 +111,14 @@ nav>ul a {
     max-width: 1400px;
     display: flex;
     margin: 0 auto;
+    justify-content: space-between;
     padding: 0 20px;
 }
 
 .banner-text {
-    width: 50%;
+    width: 35%;
     /* border: 1px solid red; */
-    min-height: 200px;
-    padding: 100px 180px 0 0;
+    padding: 100px 180px 135px 0;
 }
 
 .banner-title {
@@ -120,12 +129,10 @@ nav>ul a {
     margin-bottom: 0;
 }
 
-#goat-abbreviation {
+
+.goat-abbreviation {
     font-size: 5.94rem;
     font-weight: 800;
-    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    color: transparent;
-    -webkit-background-clip: text;
     margin-top: 0;
     margin-bottom: 20px;
 }
@@ -155,7 +162,7 @@ nav>ul a {
 }
 
 .banner-image {
-    width: 50%;
+    width: 55%;
     /* border: 1px solid blue; */
     padding-top: 20px;
 }
@@ -163,4 +170,48 @@ nav>ul a {
 .banner-image img {
     width: 100%;
     display: block;
+}
+
+/* funny-section */
+
+.funny-section {
+    max-width: 1400px;
+    margin: 80px auto 120px;
+    padding: 0 20px;
+}
+
+.funny-section>h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.funny-section>p {
+    text-align: center;
+    color: #534C64;
+    font-size: 1.13rem;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.card-container > .cards {
+    width: 23%;
+}
+
+.card-container img {
+    width: 100%;
+}
+
+.card-container p {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 25px;
 }

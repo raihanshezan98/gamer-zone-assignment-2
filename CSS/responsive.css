@@ -18,12 +18,18 @@
         margin-top: 30px;
     }
 
-        /* main styles */
+    /* main styles */
 
     /* banner section */
 
+    .banner-section {
+        background-image: none;
+    }
+
     .banner-container {
         flex-direction: column-reverse;
+        display: flex;
+        padding: 0 20px;
     }
 
     .banner-image {
@@ -31,6 +37,37 @@
         /* border: 1px solid blue; */
         padding-top: 20px;
     }
+
+    .banner-text {
+        width: 100%;
+        /* border: 1px solid red; */
+        margin-top: 20px;
+        background-image: url("../images/Group\ 14.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 90px 0 100px 0;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .goat-abbreviation {
+        font-size: 4.7rem;
+        text-align: center;
+    }
+
+    .banner-text p {
+        padding-left: 20px;
+    }
+
+    .primary-button {
+        font-size: 1.2rem;
+        padding: 15px 35px;
+        margin-left: 20px;
+    }
+
 }
 
 
@@ -45,5 +82,22 @@
 
     nav {
         flex-direction: column;
+    }
+
+    .banner-text {
+        width: 45%;
+        padding: 0;
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+    }
+
+    .goat-abbreviation {
+        font-size: 5.2rem;
+    }
+
+    .banner-image {
+        width: 55%;
     }
 }
