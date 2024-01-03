@@ -68,6 +68,40 @@
         margin-left: 20px;
     }
 
+    /* funny section  */
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card-container>.cards {
+        width: 100%;
+    }
+
+    /* play-instant-section */
+
+    .play-instant-section {
+        flex-direction: column;
+    }
+
+    .play-instant-text-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-instant-title {
+        font-size: 1.8rem;
+    }
+
+    .play-instant-text-container > p {
+        width: 100%;
+        position: static;
+    }
+
+    .img-container {
+        width: 75%;
+        margin-top: 35px;
+    }
 }
 
 
@@ -84,6 +118,17 @@
         flex-direction: column;
     }
 
+
+    /* main styles */
+
+    /* banner section */
+
+    .banner-section {
+        background-image: url("../images/Group\ 14.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     .banner-text {
         width: 45%;
         padding: 0;
@@ -94,10 +139,35 @@
     }
 
     .goat-abbreviation {
-        font-size: 5.2rem;
+        font-size: 4.75rem;
     }
 
     .banner-image {
         width: 55%;
     }
+
+    /* play-instant-section */
+
+    .play-instant-text-container {
+        width: 35%;
+        position: static;
+    }
+
+    .play-instant-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .play-instant-text-container > p {
+        color: #534C64;
+        font-size: 1.13rem;
+        font-weight: 400;
+        width: auto;
+        position: static;
+    }
+
+    .img-container {
+        width: 50%;
+    }
+
 }
