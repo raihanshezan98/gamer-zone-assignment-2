@@ -94,15 +94,46 @@
     }
 
     .play-instant-text-container > p {
-        width: 100%;
+        width: 80%;
         position: static;
+        margin: 18px auto;
     }
 
     .img-container {
         width: 75%;
         margin-top: 35px;
     }
+
+    /* game-categories-section */
+
+    .game-categories-section {
+        margin-top: 25px;
+        background-image: none;
+    }
+
+    .game-links {
+        padding: 0 20px;
+        display: grid;
+        gap: 30px 6px;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .game-links li a {
+        font-size: 0.5rem;
+        font-weight: 700;
+        padding: 5px 3px 5px 2.5px;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .game-links a > img  {
+        width: 25px;
+    }
+
 }
+
+
+
 
 
 
