@@ -26,8 +26,8 @@ header {
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
-nav {
-    max-width: 1400px;
+header>nav {
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
@@ -58,18 +58,18 @@ nav {
     color: #FF42A5;
 }
 
-nav>ul {
+header>nav>ul {
     padding-left: 0;
     display: flex;
     align-items: center;
 }
 
-nav li {
+header>nav li {
     list-style: none;
     margin-right: 30px;
 }
 
-nav>ul a {
+header>nav>ul a {
     text-decoration: none;
     color: #3C354F;
     text-align: center;
@@ -107,7 +107,7 @@ nav>ul a {
 
 
 .banner-container {
-    max-width: 1400px;
+    max-width: 1440px;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
@@ -174,7 +174,7 @@ nav>ul a {
 /* funny-section */
 
 .funny-section {
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 80px auto 120px;
     padding: 0 20px;
 }
@@ -220,7 +220,7 @@ nav>ul a {
 /* play-instant-section */
 
 .play-instant-section {
-    max-width: 1400px;
+    max-width: 1440px;
     padding: 0 20px;
     margin: 0 auto;
     display: flex;
@@ -286,8 +286,8 @@ nav>ul a {
 }
 
 .game-links {
-    max-width: 1400px;
-    margin: 0 auto;  
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
     padding-left: 0;
     flex-wrap: wrap;
@@ -322,5 +322,82 @@ nav>ul a {
 
 footer {
     background-color: #0B0223;
-    padding: 120px 500px;
+    padding: 120px 350px 100px;
+}
+
+.footer-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.footer-logo-container>h3 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+
+.footer-titles>nav>ul {
+    /* border: 1px solid red; */
+    padding-left: 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer-titles>nav li {
+    list-style: none;
+}
+
+.footer-titles>nav>ul a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.13rem;
+    font-weight: 600;
+}
+
+.social-links {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.social-links i {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+}
+
+.guide-links {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.guide-links a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-container>p {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 28px;
 }
