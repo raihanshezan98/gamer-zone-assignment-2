@@ -238,6 +238,13 @@
         flex-direction: column;
     }
 
+    .fa-gamepad {
+        font-size: 2.8rem;
+    }
+
+    .logo-container>h3 {
+        font-size: 2.4rem;
+    }
 
     /* main styles */
 
@@ -289,5 +296,48 @@
     .img-container {
         width: 50%;
     }
+
+
+    /* footer */
+
+    footer {
+        padding: 120px 0 100px;
+    }
+
+
+    .footer-logo-container>h3 {
+        font-size: 2.4rem;
+    }
+    
+    .footer-titles>nav>ul {
+        justify-content: space-evenly;
+        gap: 0;
+    }
+
+    .footer-titles>nav>ul a {
+        font-size: 0.8rem;
+    }
+
+    .social-links {
+        gap: 35px;
+    }
+
+    .social-links i {
+        font-size: 2rem;
+    }
+
+    .guide-links {
+        margin-top: 50px;
+        gap: 35px;
+    }
+
+    .guide-links a {
+        font-size: 0.6rem;
+    }
+
+    .footer-container>p {
+        font-size: 0.6rem;
+    }
+    
 
 }
