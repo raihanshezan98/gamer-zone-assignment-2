@@ -101,7 +101,7 @@ header>nav>ul a {
 
 .banner-section {
     background-image: url("../images/Group\ 14.png");
-    background-size: contain;
+    background-size: 45% 100%;
     background-repeat: no-repeat;
 }
 
@@ -115,8 +115,8 @@ header>nav>ul a {
     padding: 0 20px;
 }
 
-.banner-text {
-    width: 35%;
+.banner-text-container {
+    width: 45%;
     /* border: 1px solid red; */
 }
 
@@ -133,10 +133,23 @@ header>nav>ul a {
     font-weight: 800;
 }
 
-.banner-text p {
+.banner-description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.banner-description {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner-description p {
     color: #534C64;
     font-size: 1.25rem;
     font-weight: 500;
+    margin: 0;
 }
 
 .primary-button {
@@ -160,7 +173,7 @@ header>nav>ul a {
 .banner-image {
     width: 50%;
     /* border: 1px solid blue; */
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .banner-image img {

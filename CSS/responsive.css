@@ -40,44 +40,40 @@
 
     .banner-container {
         flex-direction: column-reverse;
-        display: flex;
-        padding: 0 20px;
     }
 
     .banner-image {
+        width: 90%;
+    }
+
+    .banner-text-container {
         width: 100%;
-        /* border: 1px solid blue; */
-        padding-top: 20px;
+        background-image: url("../images/Group\ 14.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-top: 20px;
     }
 
     .banner-text {
         width: 100%;
-        /* border: 1px solid red; */
-        margin-top: 20px;
-        background-image: url("../images/Group\ 14.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 90px 0 100px 0;
+        margin: 0 auto;
     }
 
     .banner-title {
-        font-size: 2rem;
-        text-align: center;
+        font-size: 1.5rem;
     }
 
     .goat-abbreviation {
-        font-size: 4.7rem;
-        text-align: center;
+        font-size: 3rem;
     }
 
-    .banner-text p {
-        padding-left: 20px;
+    .banner-description p {
+        font-size: 1rem;
     }
 
     .primary-button {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 15px 35px;
-        margin-left: 20px;
     }
 
     /* funny section  */
