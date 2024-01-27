@@ -49,31 +49,40 @@
     .banner-text-container {
         width: 100%;
         background-image: url("../images/Group\ 14.png");
-        background-size: 100% 100%;
         background-repeat: no-repeat;
-        margin-top: 20px;
+        background-size: 100% 100%;
+        margin: 20px auto 0;
+        padding: 125px 0 250px;
+        position: relative;
     }
 
     .banner-text {
-        width: 100%;
-        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .banner-title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .goat-abbreviation {
-        font-size: 3rem;
+        font-size: 2.4rem;
+    }
+
+    .banner-description i {
+        font-size: 0.7rem;
     }
 
     .banner-description p {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .primary-button {
-        font-size: 1rem;
-        padding: 15px 35px;
+        font-size: 0.6rem;
+        padding: 10px 20px;
+        margin-right: 5px;
     }
 
     /* funny section  */
@@ -160,7 +169,7 @@
     .footer-titles>nav>ul {
         margin-top: 35px;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 30px;
         justify-items: center;
     }
@@ -171,7 +180,7 @@
 
     .social-links {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 30px;
         justify-items: center;
     }
@@ -184,7 +193,7 @@
         justify-self: end;
     }
 
-    .left-align-links{
+    .left-align-links {
         justify-self: start;
     }
 
@@ -304,7 +313,7 @@
     .footer-logo-container>h3 {
         font-size: 2.4rem;
     }
-    
+
     .footer-titles>nav>ul {
         justify-content: space-evenly;
         gap: 0;
@@ -334,6 +343,6 @@
     .footer-container>p {
         font-size: 0.6rem;
     }
-    
+
 
 }
