@@ -26,6 +26,10 @@
         margin-right: 0;
     }
 
+    header>nav>ul a {
+        font-size: 1rem;
+    }
+
     .follow-container {
         margin-top: 30px;
     }
@@ -63,16 +67,16 @@
         transform: translate(-60%, -50%);
     }
 
-    .banner-text > h2 {
+    .banner-text>h2 {
         margin-top: 0;
     }
 
     .banner-title {
-        font-size: 1.2rem;
+        font-size: 1.56rem;
     }
 
     .goat-abbreviation {
-        font-size: 2.4rem;
+        font-size: 3.12rem;
     }
 
     .banner-description i {
@@ -80,23 +84,37 @@
     }
 
     .banner-description p {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 
     .primary-button {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         padding: 10px 15px;
         margin-right: 3px;
     }
 
     /* funny section  */
 
+    .funny-section>h2 {
+        font-size: 2.5rem;
+    }
+
+    .funny-section>p {
+        font-size: 1rem;
+    }
+
     .card-container {
+        display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .card-container>.cards {
-        width: 100%;
+        width: 90%;
+    }
+
+    .card-container p {
+        font-size: 1rem;
     }
 
     /* play-instant-section */
@@ -255,31 +273,59 @@
         font-size: 2.4rem;
     }
 
+    header>nav>ul a {
+        font-size: 1rem;
+    }
+
     /* main styles */
 
     /* banner section */
 
     .banner-section {
-        background-image: url("../images/Group\ 14.png");
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-size: 50% 100%;
+    }
+
+    .banner-text-container {
+        position: relative;
     }
 
     .banner-text {
-        width: 45%;
-        padding: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-60%, -50%);
     }
 
     .banner-title {
-        font-size: 2.5rem;
+        font-size: 1.95rem;
     }
 
     .goat-abbreviation {
-        font-size: 4.75rem;
+        font-size: 3.9rem;
     }
 
-    .banner-image {
-        width: 55%;
+    .banner-description i {
+        font-size: 0.8rem;
+    }
+
+    .banner-description p {
+        font-size: 0.8rem;
+    }
+
+    .primary-button {
+        font-size: 0.8rem;
+        padding: 10px 20px;
+        margin-right: 10px;
+    }
+
+    /* funny-section  */
+
+    .funny-section>h2 {
+        font-size: 2.5rem;
+    }
+
+    .funny-section>p {
+        font-size: 1rem;
     }
 
     /* play-instant-section */
