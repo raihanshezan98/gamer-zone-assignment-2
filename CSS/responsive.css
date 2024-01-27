@@ -72,17 +72,17 @@
     }
 
     .banner-description i {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     .banner-description p {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     .primary-button {
-        font-size: 0.6rem;
-        padding: 10px 20px;
-        margin-right: 5px;
+        font-size: 0.5rem;
+        padding: 10px 15px;
+        margin-right: 3px;
     }
 
     /* funny section  */
