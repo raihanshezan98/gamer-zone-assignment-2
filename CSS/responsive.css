@@ -8,8 +8,8 @@
         gap: 10px;
     }
 
-    .fa-gamepad {
-        font-size: 2.2rem;
+    .logo-container> img {
+        width: 60px;
     }
 
     .logo-container>h3 {
@@ -133,7 +133,7 @@
     }
 
     .play-instant-text-container>h2 {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
 
     .play-instant-text-container>p {
@@ -187,6 +187,10 @@
 
     .footer-logo-container {
         gap: 10px;
+    }
+
+    .footer-logo-container > img {
+        width: 60px;
     }
 
     .footer-logo-container>h3 {
@@ -270,8 +274,8 @@
         flex-direction: column;
     }
 
-    .fa-gamepad {
-        font-size: 2.8rem;
+    .logo-container> img {
+        width: 70px;
     }
 
     .logo-container>h3 {
@@ -365,6 +369,9 @@
         padding: 120px 0 100px;
     }
 
+    .footer-logo-container > img {
+        width: 70px;
+    }
 
     .footer-logo-container>h3 {
         font-size: 2.4rem;
