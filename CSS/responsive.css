@@ -337,6 +337,14 @@
         font-size: 1rem;
     }
 
+    .fa-circle-play {
+        font-size: 2rem;
+    }
+
+    .image__description {
+        font-size: 0.9rem;
+    }
+
     .card-description {
         font-size: 0.9rem;
         margin-top: 10px;
